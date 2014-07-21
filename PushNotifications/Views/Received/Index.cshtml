@@ -1,0 +1,12 @@
+﻿@using PushNotifications.Models
+@model PushNotifications.Models.ApiResponse
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Response</h2>
+
+<p>
+    @Html.Raw(SiteWideResponse.Xml)
+</p>
